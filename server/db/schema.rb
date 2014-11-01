@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141101040952) do
+ActiveRecord::Schema.define(version: 20141101094704) do
 
   create_table "orders", force: true do |t|
     t.text     "coffeebean"
@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 20141101040952) do
     t.float    "creamamount"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "score"
   end
 
 end

@@ -10,6 +10,20 @@ class Api::V0::OrdersController < ApplicationController
     end
   end
 
+  def feedback
+    order = Order.find(order_params[:id])
+    if order
+      orderser.score = order_params[:score]
+      if order.save
+        render json: order, status: 200
+      else
+        render json: { errors: order.errors }, status: 422
+      end
+    else
+      render json: { errors: order.errors}, status: 404
+    end
+  end
+
   def index
     render json: Order.all
   end
@@ -20,7 +34,7 @@ class Api::V0::OrdersController < ApplicationController
 
   def order_params
     params.require(:order).permit(
-      :coffeebean, :coffeeintensity, :sweetenertype, :sweetenerintensirty, :creamtype, :creamintensity
+      :id, :coffeebean, :coffeeintensity, :sweetenertype, :sweetenerintensirty, :creamtype, :creamintensity, :score
     )
   end
 end
