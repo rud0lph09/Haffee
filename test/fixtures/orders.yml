@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  coffeebean: MyText
+  coffeeintensity: 1.5
+  sweetenertype: MyText
+  sweetenerintesity: 1.5
+  creamtype: MyText
+  creamamount: 1.5
+
+two:
+  coffeebean: MyText
+  coffeeintensity: 1.5
+  sweetenertype: MyText
+  sweetenerintesity: 1.5
+  creamtype: MyText
+  creamamount: 1.5
