@@ -7,50 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E00EA6F91A04927800FEBCDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E00EA6F81A04927800FEBCDC /* main.m */; };
-		E00EA6FC1A04927800FEBCDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E00EA6FB1A04927800FEBCDC /* AppDelegate.m */; };
-		E00EA6FF1A04927800FEBCDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E00EA6FE1A04927800FEBCDC /* ViewController.m */; };
-		E00EA7021A04927800FEBCDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00EA7001A04927800FEBCDC /* Main.storyboard */; };
-		E00EA7041A04927800FEBCDC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00EA7031A04927800FEBCDC /* Images.xcassets */; };
-		E00EA7071A04927800FEBCDC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E00EA7051A04927800FEBCDC /* LaunchScreen.xib */; };
-		E00EA7131A04927800FEBCDC /* ProyectoCafeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E00EA7121A04927800FEBCDC /* ProyectoCafeAppTests.m */; };
+		E00EA72D1A04992600FEBCDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00EA72C1A04992600FEBCDC /* AppDelegate.swift */; };
+		E00EA72F1A04992600FEBCDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00EA72E1A04992600FEBCDC /* ViewController.swift */; };
+		E00EA7321A04992600FEBCDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00EA7301A04992600FEBCDC /* Main.storyboard */; };
+		E00EA7341A04992600FEBCDC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00EA7331A04992600FEBCDC /* Images.xcassets */; };
+		E00EA7371A04992600FEBCDC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E00EA7351A04992600FEBCDC /* LaunchScreen.xib */; };
+		E00EA7431A04992600FEBCDC /* ProyectoCafeAPpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00EA7421A04992600FEBCDC /* ProyectoCafeAPpTests.swift */; };
+		E00EA74D1A04994500FEBCDC /* CreatingCofee.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00EA74C1A04994500FEBCDC /* CreatingCofee.swift */; };
+		E00EA74F1A04995C00FEBCDC /* CoffeeCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00EA74E1A04995C00FEBCDC /* CoffeeCreator.swift */; };
+		E00EA7601A04A53F00FEBCDC /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00EA75F1A04A53F00FEBCDC /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E00EA70D1A04927800FEBCDC /* PBXContainerItemProxy */ = {
+		E00EA73D1A04992600FEBCDC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E00EA6EB1A04927800FEBCDC /* Project object */;
+			containerPortal = E00EA71F1A04992600FEBCDC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E00EA6F21A04927800FEBCDC;
-			remoteInfo = ProyectoCafeApp;
+			remoteGlobalIDString = E00EA7261A04992600FEBCDC;
+			remoteInfo = ProyectoCafeAPp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E00EA6F31A04927800FEBCDC /* ProyectoCafeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoCafeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E00EA6F71A04927800FEBCDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E00EA6F81A04927800FEBCDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E00EA6FA1A04927800FEBCDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E00EA6FB1A04927800FEBCDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E00EA6FD1A04927800FEBCDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E00EA6FE1A04927800FEBCDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E00EA7011A04927800FEBCDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E00EA7031A04927800FEBCDC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E00EA7061A04927800FEBCDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		E00EA70C1A04927800FEBCDC /* ProyectoCafeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoCafeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E00EA7111A04927800FEBCDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E00EA7121A04927800FEBCDC /* ProyectoCafeAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProyectoCafeAppTests.m; sourceTree = "<group>"; };
+		E00EA7271A04992600FEBCDC /* ProyectoCafeAPp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoCafeAPp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00EA72B1A04992600FEBCDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E00EA72C1A04992600FEBCDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E00EA72E1A04992600FEBCDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E00EA7311A04992600FEBCDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E00EA7331A04992600FEBCDC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E00EA7361A04992600FEBCDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E00EA73C1A04992600FEBCDC /* ProyectoCafeAPpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoCafeAPpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00EA7411A04992600FEBCDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E00EA7421A04992600FEBCDC /* ProyectoCafeAPpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoCafeAPpTests.swift; sourceTree = "<group>"; };
+		E00EA74C1A04994500FEBCDC /* CreatingCofee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreatingCofee.swift; path = ProyectoCafeAPp/CreatingCofee.swift; sourceTree = "<group>"; };
+		E00EA74E1A04995C00FEBCDC /* CoffeeCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffeeCreator.swift; sourceTree = "<group>"; };
+		E00EA75F1A04A53F00FEBCDC /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E00EA6F01A04927800FEBCDC /* Frameworks */ = {
+		E00EA7241A04992600FEBCDC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E00EA7091A04927800FEBCDC /* Frameworks */ = {
+		E00EA7391A04992600FEBCDC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,61 +62,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E00EA6EA1A04927800FEBCDC = {
+		E00EA71E1A04992600FEBCDC = {
 			isa = PBXGroup;
 			children = (
-				E00EA6F51A04927800FEBCDC /* ProyectoCafeApp */,
-				E00EA70F1A04927800FEBCDC /* ProyectoCafeAppTests */,
-				E00EA6F41A04927800FEBCDC /* Products */,
+				E00EA74C1A04994500FEBCDC /* CreatingCofee.swift */,
+				E00EA74E1A04995C00FEBCDC /* CoffeeCreator.swift */,
+				E00EA75F1A04A53F00FEBCDC /* Settings.swift */,
+				E00EA7291A04992600FEBCDC /* ProyectoCafeAPp */,
+				E00EA73F1A04992600FEBCDC /* ProyectoCafeAPpTests */,
+				E00EA7281A04992600FEBCDC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E00EA6F41A04927800FEBCDC /* Products */ = {
+		E00EA7281A04992600FEBCDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E00EA6F31A04927800FEBCDC /* ProyectoCafeApp.app */,
-				E00EA70C1A04927800FEBCDC /* ProyectoCafeAppTests.xctest */,
+				E00EA7271A04992600FEBCDC /* ProyectoCafeAPp.app */,
+				E00EA73C1A04992600FEBCDC /* ProyectoCafeAPpTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E00EA6F51A04927800FEBCDC /* ProyectoCafeApp */ = {
+		E00EA7291A04992600FEBCDC /* ProyectoCafeAPp */ = {
 			isa = PBXGroup;
 			children = (
-				E00EA6FA1A04927800FEBCDC /* AppDelegate.h */,
-				E00EA6FB1A04927800FEBCDC /* AppDelegate.m */,
-				E00EA6FD1A04927800FEBCDC /* ViewController.h */,
-				E00EA6FE1A04927800FEBCDC /* ViewController.m */,
-				E00EA7001A04927800FEBCDC /* Main.storyboard */,
-				E00EA7031A04927800FEBCDC /* Images.xcassets */,
-				E00EA7051A04927800FEBCDC /* LaunchScreen.xib */,
-				E00EA6F61A04927800FEBCDC /* Supporting Files */,
+				E00EA72C1A04992600FEBCDC /* AppDelegate.swift */,
+				E00EA72E1A04992600FEBCDC /* ViewController.swift */,
+				E00EA7301A04992600FEBCDC /* Main.storyboard */,
+				E00EA7331A04992600FEBCDC /* Images.xcassets */,
+				E00EA7351A04992600FEBCDC /* LaunchScreen.xib */,
+				E00EA72A1A04992600FEBCDC /* Supporting Files */,
 			);
-			path = ProyectoCafeApp;
+			path = ProyectoCafeAPp;
 			sourceTree = "<group>";
 		};
-		E00EA6F61A04927800FEBCDC /* Supporting Files */ = {
+		E00EA72A1A04992600FEBCDC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E00EA6F71A04927800FEBCDC /* Info.plist */,
-				E00EA6F81A04927800FEBCDC /* main.m */,
+				E00EA72B1A04992600FEBCDC /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E00EA70F1A04927800FEBCDC /* ProyectoCafeAppTests */ = {
+		E00EA73F1A04992600FEBCDC /* ProyectoCafeAPpTests */ = {
 			isa = PBXGroup;
 			children = (
-				E00EA7121A04927800FEBCDC /* ProyectoCafeAppTests.m */,
-				E00EA7101A04927800FEBCDC /* Supporting Files */,
+				E00EA7421A04992600FEBCDC /* ProyectoCafeAPpTests.swift */,
+				E00EA7401A04992600FEBCDC /* Supporting Files */,
 			);
-			path = ProyectoCafeAppTests;
+			path = ProyectoCafeAPpTests;
 			sourceTree = "<group>";
 		};
-		E00EA7101A04927800FEBCDC /* Supporting Files */ = {
+		E00EA7401A04992600FEBCDC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E00EA7111A04927800FEBCDC /* Info.plist */,
+				E00EA7411A04992600FEBCDC /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -122,60 +124,61 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E00EA6F21A04927800FEBCDC /* ProyectoCafeApp */ = {
+		E00EA7261A04992600FEBCDC /* ProyectoCafeAPp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E00EA7161A04927800FEBCDC /* Build configuration list for PBXNativeTarget "ProyectoCafeApp" */;
+			buildConfigurationList = E00EA7461A04992600FEBCDC /* Build configuration list for PBXNativeTarget "ProyectoCafeAPp" */;
 			buildPhases = (
-				E00EA6EF1A04927800FEBCDC /* Sources */,
-				E00EA6F01A04927800FEBCDC /* Frameworks */,
-				E00EA6F11A04927800FEBCDC /* Resources */,
+				E00EA7231A04992600FEBCDC /* Sources */,
+				E00EA7241A04992600FEBCDC /* Frameworks */,
+				E00EA7251A04992600FEBCDC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ProyectoCafeApp;
-			productName = ProyectoCafeApp;
-			productReference = E00EA6F31A04927800FEBCDC /* ProyectoCafeApp.app */;
+			name = ProyectoCafeAPp;
+			productName = ProyectoCafeAPp;
+			productReference = E00EA7271A04992600FEBCDC /* ProyectoCafeAPp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E00EA70B1A04927800FEBCDC /* ProyectoCafeAppTests */ = {
+		E00EA73B1A04992600FEBCDC /* ProyectoCafeAPpTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E00EA7191A04927800FEBCDC /* Build configuration list for PBXNativeTarget "ProyectoCafeAppTests" */;
+			buildConfigurationList = E00EA7491A04992600FEBCDC /* Build configuration list for PBXNativeTarget "ProyectoCafeAPpTests" */;
 			buildPhases = (
-				E00EA7081A04927800FEBCDC /* Sources */,
-				E00EA7091A04927800FEBCDC /* Frameworks */,
-				E00EA70A1A04927800FEBCDC /* Resources */,
+				E00EA7381A04992600FEBCDC /* Sources */,
+				E00EA7391A04992600FEBCDC /* Frameworks */,
+				E00EA73A1A04992600FEBCDC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E00EA70E1A04927800FEBCDC /* PBXTargetDependency */,
+				E00EA73E1A04992600FEBCDC /* PBXTargetDependency */,
 			);
-			name = ProyectoCafeAppTests;
-			productName = ProyectoCafeAppTests;
-			productReference = E00EA70C1A04927800FEBCDC /* ProyectoCafeAppTests.xctest */;
+			name = ProyectoCafeAPpTests;
+			productName = ProyectoCafeAPpTests;
+			productReference = E00EA73C1A04992600FEBCDC /* ProyectoCafeAPpTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E00EA6EB1A04927800FEBCDC /* Project object */ = {
+		E00EA71F1A04992600FEBCDC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Rodolfo Castillo";
 				TargetAttributes = {
-					E00EA6F21A04927800FEBCDC = {
+					E00EA7261A04992600FEBCDC = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 27MUBRMHKJ;
 					};
-					E00EA70B1A04927800FEBCDC = {
+					E00EA73B1A04992600FEBCDC = {
 						CreatedOnToolsVersion = 6.1;
-						TestTargetID = E00EA6F21A04927800FEBCDC;
+						TestTargetID = E00EA7261A04992600FEBCDC;
 					};
 				};
 			};
-			buildConfigurationList = E00EA6EE1A04927800FEBCDC /* Build configuration list for PBXProject "ProyectoCafeApp" */;
+			buildConfigurationList = E00EA7221A04992600FEBCDC /* Build configuration list for PBXProject "ProyectoCafeAPp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -183,29 +186,29 @@
 				en,
 				Base,
 			);
-			mainGroup = E00EA6EA1A04927800FEBCDC;
-			productRefGroup = E00EA6F41A04927800FEBCDC /* Products */;
+			mainGroup = E00EA71E1A04992600FEBCDC;
+			productRefGroup = E00EA7281A04992600FEBCDC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E00EA6F21A04927800FEBCDC /* ProyectoCafeApp */,
-				E00EA70B1A04927800FEBCDC /* ProyectoCafeAppTests */,
+				E00EA7261A04992600FEBCDC /* ProyectoCafeAPp */,
+				E00EA73B1A04992600FEBCDC /* ProyectoCafeAPpTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E00EA6F11A04927800FEBCDC /* Resources */ = {
+		E00EA7251A04992600FEBCDC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E00EA7021A04927800FEBCDC /* Main.storyboard in Resources */,
-				E00EA7071A04927800FEBCDC /* LaunchScreen.xib in Resources */,
-				E00EA7041A04927800FEBCDC /* Images.xcassets in Resources */,
+				E00EA7321A04992600FEBCDC /* Main.storyboard in Resources */,
+				E00EA7371A04992600FEBCDC /* LaunchScreen.xib in Resources */,
+				E00EA7341A04992600FEBCDC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E00EA70A1A04927800FEBCDC /* Resources */ = {
+		E00EA73A1A04992600FEBCDC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -215,47 +218,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E00EA6EF1A04927800FEBCDC /* Sources */ = {
+		E00EA7231A04992600FEBCDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E00EA6FF1A04927800FEBCDC /* ViewController.m in Sources */,
-				E00EA6FC1A04927800FEBCDC /* AppDelegate.m in Sources */,
-				E00EA6F91A04927800FEBCDC /* main.m in Sources */,
+				E00EA72F1A04992600FEBCDC /* ViewController.swift in Sources */,
+				E00EA72D1A04992600FEBCDC /* AppDelegate.swift in Sources */,
+				E00EA74F1A04995C00FEBCDC /* CoffeeCreator.swift in Sources */,
+				E00EA74D1A04994500FEBCDC /* CreatingCofee.swift in Sources */,
+				E00EA7601A04A53F00FEBCDC /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E00EA7081A04927800FEBCDC /* Sources */ = {
+		E00EA7381A04992600FEBCDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E00EA7131A04927800FEBCDC /* ProyectoCafeAppTests.m in Sources */,
+				E00EA7431A04992600FEBCDC /* ProyectoCafeAPpTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E00EA70E1A04927800FEBCDC /* PBXTargetDependency */ = {
+		E00EA73E1A04992600FEBCDC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E00EA6F21A04927800FEBCDC /* ProyectoCafeApp */;
-			targetProxy = E00EA70D1A04927800FEBCDC /* PBXContainerItemProxy */;
+			target = E00EA7261A04992600FEBCDC /* ProyectoCafeAPp */;
+			targetProxy = E00EA73D1A04992600FEBCDC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E00EA7001A04927800FEBCDC /* Main.storyboard */ = {
+		E00EA7301A04992600FEBCDC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E00EA7011A04927800FEBCDC /* Base */,
+				E00EA7311A04992600FEBCDC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		E00EA7051A04927800FEBCDC /* LaunchScreen.xib */ = {
+		E00EA7351A04992600FEBCDC /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E00EA7061A04927800FEBCDC /* Base */,
+				E00EA7361A04992600FEBCDC /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -263,7 +268,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E00EA7141A04927800FEBCDC /* Debug */ = {
+		E00EA7441A04992600FEBCDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -301,11 +306,12 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		E00EA7151A04927800FEBCDC /* Release */ = {
+		E00EA7451A04992600FEBCDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -341,27 +347,33 @@
 			};
 			name = Release;
 		};
-		E00EA7171A04927800FEBCDC /* Debug */ = {
+		E00EA7471A04992600FEBCDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ProyectoCafeApp/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ProyectoCafeAPp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
-		E00EA7181A04927800FEBCDC /* Release */ = {
+		E00EA7481A04992600FEBCDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ProyectoCafeApp/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ProyectoCafeAPp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
-		E00EA71A1A04927800FEBCDC /* Debug */ = {
+		E00EA74A1A04992600FEBCDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -373,14 +385,14 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ProyectoCafeAppTests/Info.plist;
+				INFOPLIST_FILE = ProyectoCafeAPpTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProyectoCafeApp.app/ProyectoCafeApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProyectoCafeAPp.app/ProyectoCafeAPp";
 			};
 			name = Debug;
 		};
-		E00EA71B1A04927800FEBCDC /* Release */ = {
+		E00EA74B1A04992600FEBCDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -388,42 +400,42 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ProyectoCafeAppTests/Info.plist;
+				INFOPLIST_FILE = ProyectoCafeAPpTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProyectoCafeApp.app/ProyectoCafeApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProyectoCafeAPp.app/ProyectoCafeAPp";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E00EA6EE1A04927800FEBCDC /* Build configuration list for PBXProject "ProyectoCafeApp" */ = {
+		E00EA7221A04992600FEBCDC /* Build configuration list for PBXProject "ProyectoCafeAPp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E00EA7141A04927800FEBCDC /* Debug */,
-				E00EA7151A04927800FEBCDC /* Release */,
+				E00EA7441A04992600FEBCDC /* Debug */,
+				E00EA7451A04992600FEBCDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E00EA7161A04927800FEBCDC /* Build configuration list for PBXNativeTarget "ProyectoCafeApp" */ = {
+		E00EA7461A04992600FEBCDC /* Build configuration list for PBXNativeTarget "ProyectoCafeAPp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E00EA7171A04927800FEBCDC /* Debug */,
-				E00EA7181A04927800FEBCDC /* Release */,
+				E00EA7471A04992600FEBCDC /* Debug */,
+				E00EA7481A04992600FEBCDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		E00EA7191A04927800FEBCDC /* Build configuration list for PBXNativeTarget "ProyectoCafeAppTests" */ = {
+		E00EA7491A04992600FEBCDC /* Build configuration list for PBXNativeTarget "ProyectoCafeAPpTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E00EA71A1A04927800FEBCDC /* Debug */,
-				E00EA71B1A04927800FEBCDC /* Release */,
+				E00EA74A1A04992600FEBCDC /* Debug */,
+				E00EA74B1A04992600FEBCDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E00EA6EB1A04927800FEBCDC /* Project object */;
+	rootObject = E00EA71F1A04992600FEBCDC /* Project object */;
 }

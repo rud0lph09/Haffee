@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ProyectoCafeApp.xcscheme</key>
+		<key>ProyectoCafeAPp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>E00EA6F21A04927800FEBCDC</key>
+		<key>E00EA7261A04992600FEBCDC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E00EA70B1A04927800FEBCDC</key>
+		<key>E00EA73B1A04992600FEBCDC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
