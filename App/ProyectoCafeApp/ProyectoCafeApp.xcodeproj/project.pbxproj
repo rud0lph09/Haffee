@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		E00EA72D1A04992600FEBCDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00EA72C1A04992600FEBCDC /* AppDelegate.swift */; };
 		E00EA72F1A04992600FEBCDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00EA72E1A04992600FEBCDC /* ViewController.swift */; };
-		E00EA7321A04992600FEBCDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00EA7301A04992600FEBCDC /* Main.storyboard */; };
 		E00EA7341A04992600FEBCDC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00EA7331A04992600FEBCDC /* Images.xcassets */; };
 		E00EA7371A04992600FEBCDC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E00EA7351A04992600FEBCDC /* LaunchScreen.xib */; };
 		E00EA7431A04992600FEBCDC /* ProyectoCafeAPpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00EA7421A04992600FEBCDC /* ProyectoCafeAPpTests.swift */; };
 		E00EA74D1A04994500FEBCDC /* CreatingCofee.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00EA74C1A04994500FEBCDC /* CreatingCofee.swift */; };
 		E00EA74F1A04995C00FEBCDC /* CoffeeCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00EA74E1A04995C00FEBCDC /* CoffeeCreator.swift */; };
 		E00EA7601A04A53F00FEBCDC /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00EA75F1A04A53F00FEBCDC /* Settings.swift */; };
+		E0CEEC051A05148000F86665 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CEEC041A05148000F86665 /* LoaderView.swift */; };
+		E0CEEC081A0515D000F86665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0CEEC061A0515D000F86665 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +34,6 @@
 		E00EA72B1A04992600FEBCDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E00EA72C1A04992600FEBCDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E00EA72E1A04992600FEBCDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E00EA7311A04992600FEBCDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E00EA7331A04992600FEBCDC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E00EA7361A04992600FEBCDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E00EA73C1A04992600FEBCDC /* ProyectoCafeAPpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoCafeAPpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +42,8 @@
 		E00EA74C1A04994500FEBCDC /* CreatingCofee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreatingCofee.swift; path = ProyectoCafeAPp/CreatingCofee.swift; sourceTree = "<group>"; };
 		E00EA74E1A04995C00FEBCDC /* CoffeeCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffeeCreator.swift; sourceTree = "<group>"; };
 		E00EA75F1A04A53F00FEBCDC /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		E0CEEC041A05148000F86665 /* LoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		E0CEEC071A0515D000F86665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ProyectoCafeAPp/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		E00EA71E1A04992600FEBCDC = {
 			isa = PBXGroup;
 			children = (
+				E0CEEC041A05148000F86665 /* LoaderView.swift */,
 				E00EA74C1A04994500FEBCDC /* CreatingCofee.swift */,
 				E00EA74E1A04995C00FEBCDC /* CoffeeCreator.swift */,
 				E00EA75F1A04A53F00FEBCDC /* Settings.swift */,
@@ -88,8 +91,8 @@
 			children = (
 				E00EA72C1A04992600FEBCDC /* AppDelegate.swift */,
 				E00EA72E1A04992600FEBCDC /* ViewController.swift */,
-				E00EA7301A04992600FEBCDC /* Main.storyboard */,
 				E00EA7331A04992600FEBCDC /* Images.xcassets */,
+				E0CEEC061A0515D000F86665 /* Main.storyboard */,
 				E00EA7351A04992600FEBCDC /* LaunchScreen.xib */,
 				E00EA72A1A04992600FEBCDC /* Supporting Files */,
 			);
@@ -202,7 +205,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E00EA7321A04992600FEBCDC /* Main.storyboard in Resources */,
+				E0CEEC081A0515D000F86665 /* Main.storyboard in Resources */,
 				E00EA7371A04992600FEBCDC /* LaunchScreen.xib in Resources */,
 				E00EA7341A04992600FEBCDC /* Images.xcassets in Resources */,
 			);
@@ -227,6 +230,7 @@
 				E00EA74F1A04995C00FEBCDC /* CoffeeCreator.swift in Sources */,
 				E00EA74D1A04994500FEBCDC /* CreatingCofee.swift in Sources */,
 				E00EA7601A04A53F00FEBCDC /* Settings.swift in Sources */,
+				E0CEEC051A05148000F86665 /* LoaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,20 +253,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E00EA7301A04992600FEBCDC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E00EA7311A04992600FEBCDC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E00EA7351A04992600FEBCDC /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E00EA7361A04992600FEBCDC /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		E0CEEC061A0515D000F86665 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0CEEC071A0515D000F86665 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -357,6 +362,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -370,6 +376,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -426,6 +433,7 @@
 				E00EA7481A04992600FEBCDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E00EA7491A04992600FEBCDC /* Build configuration list for PBXNativeTarget "ProyectoCafeAPpTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +442,7 @@
 				E00EA74B1A04992600FEBCDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
