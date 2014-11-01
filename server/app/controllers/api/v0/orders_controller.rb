@@ -14,10 +14,10 @@ class Api::V0::OrdersController < ApplicationController
     render json: Order.all
   end
 
-  def show
-    render json: order.where(order_params)
+  def search
+    render json: Order.where(order_params)
   end
-  
+
   def order_params
     params.require(:order).permit(
       :coffeebean, :coffeeintensity, :sweetenertype, :sweetenerintensirty, :creamtype, :creamintensity
