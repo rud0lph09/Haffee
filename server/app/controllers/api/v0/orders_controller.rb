@@ -34,7 +34,7 @@ class Api::V0::OrdersController < ApplicationController
 
   def order_params
     params.require(:order).permit(
-      :id, :coffeebean, :coffeeintensity, :sweetenertype, :sweetenerintensirty, :creamtype, :creamamount, :score
+      :id, :coffeebean, :coffeeintensity, :sweetenertype, :sweetenerintensity, :creamtype, :creamamount, :score
     )
   end
 end
