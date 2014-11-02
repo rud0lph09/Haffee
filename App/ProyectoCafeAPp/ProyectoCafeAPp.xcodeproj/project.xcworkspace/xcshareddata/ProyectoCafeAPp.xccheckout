@@ -10,14 +10,14 @@
 	<string>ProyectoCafeAPp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>87C26A575D5C0C4B0CAE687F0DCF37C003583FEB</key>
+		<key>9D06A3704871E318A86805129C7C9E02299A61C0</key>
 		<string>https://github.com/rud0lph09/proyectoCafe.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>App/ProyectoCafeAPp/ProyectoCafeAPp.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>87C26A575D5C0C4B0CAE687F0DCF37C003583FEB</key>
+		<key>9D06A3704871E318A86805129C7C9E02299A61C0</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>87C26A575D5C0C4B0CAE687F0DCF37C003583FEB</string>
+	<string>9D06A3704871E318A86805129C7C9E02299A61C0</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>87C26A575D5C0C4B0CAE687F0DCF37C003583FEB</string>
+			<string>9D06A3704871E318A86805129C7C9E02299A61C0</string>
 			<key>IDESourceControlWCCName</key>
 			<string>proyectoCafe</string>
 		</dict>
