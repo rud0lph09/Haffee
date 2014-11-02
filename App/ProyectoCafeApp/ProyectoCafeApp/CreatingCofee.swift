@@ -9,21 +9,14 @@
 import Foundation
 
 class CreatingCofee{
-    
-    var intensidad:Int
-    var dulzura:Int
-    var crema:Bool
-    
-    init(intens: Int, dulz: Int, crem: Bool){
-        
-        self.intensidad = intens
-        self.dulzura = dulz
-        self.crema = crem
-        
+    let Intensidad: [String: String]
+    let Azucar: [String: String]
+    init(){
+    Intensidad = ["1": "Ligero","2": "Normal","3": "Intenso", "4": "Levanta Muertos", "5": "IN-HUMANO!"]
+    Azucar = ["1": "Sugar-Free","2": "Cucharadita","3": "Cubos", "4": "Sweet-Tooth", "5": "Hanzel y Gretel"]
     }
-    
-    func toJSON ()->String{
-        return ""
+    func getDict(Dictionary<Int, String>)-> Dictionary<Int, String>{
+        return Dictionary()
     }
     
 }

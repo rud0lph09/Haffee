@@ -13,8 +13,11 @@ class ViewController: UIViewController {
     var intens: Int = 0
     var maxValor: Int = 10
     var minValor: Int = 0
-    var cnCrema: Bool = false
+    var cnCrema: Int = 0
     var caracaf: String = ""
+    let coffee = CreatingCofee()
+    
+    
     
     @IBAction func getter(sender: AnyObject) {
         let alertController = UIAlertController(title: "Su Cafe esta Listo", message:
@@ -46,21 +49,33 @@ class ViewController: UIViewController {
         
         if miSwitch.on {
             
-            cnCrema = true
+            cnCrema = 1
             crema.text = "Con crema"
             
         }
         
         else {
             
-            cnCrema = false
+            cnCrema = 0
             crema.text = "Sin Crema"
             
         }
         
     }
     @IBAction func button(sender: AnyObject) {
+        
+        var intenseFloat: CGFloat = CGFloat(intens)
+        var dulzFloat: CGFloat = CGFloat(dulz)
+        var cremaFloat: CGFloat = CGFloat(cnCrema)
+        
+        var haffee: [String: String] = ["coffeeintensity":"\(intenseFloat)", "sweetenerintensity":"\(dulzFloat)", "creamamount":"\(cremaFloat)"]
         println("Nivel de Intensidad:\(intens)\nNivel de dulsura:\(dulz)\nCon crema?: \(cnCrema)")
+        let req = Agent.post("http://participacion.mx/api/v0/orders")
+        req.send([ "order": haffee])
+        req.end({ (response: NSHTTPURLResponse!, data: Agent.Data!, error: NSError!) -> Void in
+            // react to the result of your request
+        })
+       
     }
     
   
@@ -84,16 +99,16 @@ class ViewController: UIViewController {
         
         switch intens{
             
-        case 1...2:
-            caracaf = "Ligero"
-        case 3...4:
-            caracaf = "Normal"
-        case 5...6:
-            caracaf = "Intenso"
-        case 7...8:
-            caracaf = "Levanta-Muertos"
-        case 9...10:
-            caracaf = "IN-HUMANO!"
+        case 1:
+            caracaf =  coffee.Intensidad["1"]!
+        case 2:
+            caracaf =  coffee.Intensidad["2"]!
+        case 3:
+            caracaf =  coffee.Intensidad["3"]!
+        case 4:
+            caracaf =  coffee.Intensidad["4"]!
+        case 5:
+            caracaf =  coffee.Intensidad["5"]!
         default:
             return 0
             
@@ -105,23 +120,25 @@ class ViewController: UIViewController {
         
         switch dulz{
             
-        case 1...2:
-            caracaf = "Sugar-Free!"
-        case 3...4:
-            caracaf = "Cucharadita"
-        case 5...6:
-            caracaf = "Cubos"
-        case 7...8:
-            caracaf = "Terrones"
-        case 9...10:
-            caracaf = "Hanzel y Gretel"
+        case 1:
+            caracaf =  coffee.Azucar["1"]!
+        case 2:
+            caracaf =  coffee.Azucar["2"]!
+        case 3:
+            caracaf =  coffee.Azucar["3"]!
+        case 4:
+            caracaf =  coffee.Azucar["4"]!
+        case 5:
+            caracaf =  coffee.Azucar["5"]!
         default:
             return 0
+
             
         }
         return 0
     }
-
+    
+    
 
 
 }
