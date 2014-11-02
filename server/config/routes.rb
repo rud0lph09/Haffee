@@ -7,4 +7,7 @@ Cafe::Application.routes.draw do
       get 'orders/search', to: 'orders#search'
     end
   end
+
+  root to: 'orders#index'
+  post 'orders', to: 'orders#create'
 end
