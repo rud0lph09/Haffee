@@ -2,8 +2,8 @@
 //  LoaderView.swift
 //  ProyectoCafeAPp
 //
-//  Created by Rodolfo Castillo on 01/11/14.
-//  Copyright (c) 2014 Rodolfo Castillo. All rights reserved.
+//  Created by Rodolfo Castillo as Haffee Dev team Member on 01/11/14.
+//  Copyright (c) 2014 Rodolfo Castillo as Haffee Dev team Member. All rights reserved.
 //
 
 import UIKit

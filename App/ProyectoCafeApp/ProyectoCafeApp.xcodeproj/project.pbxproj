@@ -33,10 +33,10 @@
 		E00EA7271A04992600FEBCDC /* ProyectoCafeAPp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoCafeAPp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E00EA72B1A04992600FEBCDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E00EA72C1A04992600FEBCDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E00EA72E1A04992600FEBCDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E00EA72E1A04992600FEBCDC /* ViewController.swift */ = {isa = PBXFileReference; indentWidth = 5; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; tabWidth = 5; };
 		E00EA7331A04992600FEBCDC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E00EA7361A04992600FEBCDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		E00EA73C1A04992600FEBCDC /* ProyectoCafeAPpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoCafeAPpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00EA73C1A04992600FEBCDC /* Haffee.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Haffee.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E00EA7411A04992600FEBCDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E00EA7421A04992600FEBCDC /* ProyectoCafeAPpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoCafeAPpTests.swift; sourceTree = "<group>"; };
 		E00EA74C1A04994500FEBCDC /* CreatingCofee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreatingCofee.swift; path = ProyectoCafeAPp/CreatingCofee.swift; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				E00EA7271A04992600FEBCDC /* ProyectoCafeAPp.app */,
-				E00EA73C1A04992600FEBCDC /* ProyectoCafeAPpTests.xctest */,
+				E00EA73C1A04992600FEBCDC /* Haffee.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,7 +159,7 @@
 			);
 			name = ProyectoCafeAPpTests;
 			productName = ProyectoCafeAPpTests;
-			productReference = E00EA73C1A04992600FEBCDC /* ProyectoCafeAPpTests.xctest */;
+			productReference = E00EA73C1A04992600FEBCDC /* Haffee.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -360,9 +360,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ProyectoCafeAPp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ProyectoCafeAPp;
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -374,9 +374,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ProyectoCafeAPp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ProyectoCafeAPp;
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -394,7 +394,7 @@
 				);
 				INFOPLIST_FILE = ProyectoCafeAPpTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Haffee;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProyectoCafeAPp.app/ProyectoCafeAPp";
 			};
 			name = Debug;
@@ -409,7 +409,7 @@
 				);
 				INFOPLIST_FILE = ProyectoCafeAPpTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Haffee;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProyectoCafeAPp.app/ProyectoCafeAPp";
 			};
 			name = Release;
