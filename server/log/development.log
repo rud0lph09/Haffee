@@ -1809,3 +1809,27 @@ ActionView::MissingTemplate (Missing template api/v0/orders/feedback, applicatio
 
 
   Rendered /usr/share/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to FixColumnName (20141102021423)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TEMPORARY TABLE "aorders" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "coffeebean" text, "coffeeintensity" float, "sweetenertype" text, "sweetenerintensity" float, "creamtype" text, "creamamount" float, "created_at" datetime, "updated_at" datetime, "score" integer) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "orders"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "aorders" ("id","coffeebean","coffeeintensity","sweetenertype","sweetenerintensity","creamtype","creamamount","created_at","updated_at","score") VALUES (1, 'YOLO', NULL, NULL, NULL, NULL, NULL, '2014-11-01 04:48:38.252798', '2014-11-01 04:48:38.252798', NULL)[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "aorders" ("id","coffeebean","coffeeintensity","sweetenertype","sweetenerintensity","creamtype","creamamount","created_at","updated_at","score") VALUES (2, 'YOLO', NULL, NULL, NULL, NULL, NULL, '2014-11-01 04:49:04.225130', '2014-11-01 04:49:04.225130', NULL)
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "aorders" ("id","coffeebean","coffeeintensity","sweetenertype","sweetenerintensity","creamtype","creamamount","created_at","updated_at","score") VALUES (3, 'YOLO', NULL, NULL, NULL, NULL, NULL, '2014-11-01 06:00:43.793121', '2014-11-01 06:00:43.793121', NULL)[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "aorders" ("id","coffeebean","coffeeintensity","sweetenertype","sweetenerintensity","creamtype","creamamount","created_at","updated_at","score") VALUES (4, 'cafe', NULL, NULL, NULL, NULL, NULL, '2014-11-01 06:05:46.319225', '2014-11-01 06:05:46.319225', NULL)
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "aorders" ("id","coffeebean","coffeeintensity","sweetenertype","sweetenerintensity","creamtype","creamamount","created_at","updated_at","score") VALUES (5, 'normal', 5.0, NULL, NULL, NULL, NULL, '2014-11-01 07:08:05.546560', '2014-11-01 07:08:05.546560', NULL)[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "aorders" ("id","coffeebean","coffeeintensity","sweetenertype","sweetenerintensity","creamtype","creamamount","created_at","updated_at","score") VALUES (6, 'normal', 0.0, NULL, NULL, NULL, NULL, '2014-11-01 07:08:45.827148', '2014-11-01 07:08:45.827148', NULL)
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "orders"[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "orders" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "coffeebean" text, "coffeeintensity" float, "sweetenertype" text, "sweetenerintensity" float, "creamtype" text, "creamamount" float, "created_at" datetime, "updated_at" datetime, "score" integer) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "aorders"[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "orders" ("id","coffeebean","coffeeintensity","sweetenertype","sweetenerintensity","creamtype","creamamount","created_at","updated_at","score") VALUES (1, 'YOLO', NULL, NULL, NULL, NULL, NULL, '2014-11-01 04:48:38.252798', '2014-11-01 04:48:38.252798', NULL)
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "orders" ("id","coffeebean","coffeeintensity","sweetenertype","sweetenerintensity","creamtype","creamamount","created_at","updated_at","score") VALUES (2, 'YOLO', NULL, NULL, NULL, NULL, NULL, '2014-11-01 04:49:04.225130', '2014-11-01 04:49:04.225130', NULL)[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "orders" ("id","coffeebean","coffeeintensity","sweetenertype","sweetenerintensity","creamtype","creamamount","created_at","updated_at","score") VALUES (3, 'YOLO', NULL, NULL, NULL, NULL, NULL, '2014-11-01 06:00:43.793121', '2014-11-01 06:00:43.793121', NULL)
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "orders" ("id","coffeebean","coffeeintensity","sweetenertype","sweetenerintensity","creamtype","creamamount","created_at","updated_at","score") VALUES (4, 'cafe', NULL, NULL, NULL, NULL, NULL, '2014-11-01 06:05:46.319225', '2014-11-01 06:05:46.319225', NULL)[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "orders" ("id","coffeebean","coffeeintensity","sweetenertype","sweetenerintensity","creamtype","creamamount","created_at","updated_at","score") VALUES (5, 'normal', 5.0, NULL, NULL, NULL, NULL, '2014-11-01 07:08:05.546560', '2014-11-01 07:08:05.546560', NULL)
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "orders" ("id","coffeebean","coffeeintensity","sweetenertype","sweetenerintensity","creamtype","creamamount","created_at","updated_at","score") VALUES (6, 'normal', 0.0, NULL, NULL, NULL, NULL, '2014-11-01 07:08:45.827148', '2014-11-01 07:08:45.827148', NULL)[0m
+  [1m[35m (0.1ms)[0m  DROP TABLE "aorders"
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20141102021423"]]
+  [1m[35m (128.0ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m

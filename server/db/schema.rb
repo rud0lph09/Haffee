@@ -11,13 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141101094704) do
+ActiveRecord::Schema.define(version: 20141102021423) do
 
   create_table "orders", force: true do |t|
     t.text     "coffeebean"
     t.float    "coffeeintensity"
     t.text     "sweetenertype"
-    t.float    "sweetenerintesity"
+    t.float    "sweetenerintensity"
     t.text     "creamtype"
     t.float    "creamamount"
     t.datetime "created_at"
