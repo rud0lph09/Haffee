@@ -182,6 +182,16 @@ class ViewController: UIViewController {
         }
         
     }
+    @IBAction func alrratin(sender: AnyObject) {
+        if(intens <= 0){
+            let alertController = UIAlertController(title: "Advertencia!", message:
+                "Seleccione una cantidad de café", preferredStyle: UIAlertControllerStyle.Alert)
+            alertController.addAction(UIAlertAction(title: "Cerrar", style: UIAlertActionStyle.Default,handler: nil))
+            
+            self.presentViewController(alertController, animated: true, completion: nil)
+            
+        }
+    }
     @IBAction func button(sender: AnyObject) {
         if(intens > 0){
         var intenseFloat: CGFloat = CGFloat(intens)

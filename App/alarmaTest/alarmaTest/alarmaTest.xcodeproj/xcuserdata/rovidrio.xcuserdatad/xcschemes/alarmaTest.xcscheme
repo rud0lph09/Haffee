@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E00EA7261A04992600FEBCDC"
-               BuildableName = "ProyectoCafeAPp.app"
-               BlueprintName = "ProyectoCafeAPp"
-               ReferencedContainer = "container:ProyectoCafeAPp.xcodeproj">
+               BlueprintIdentifier = "E0F07B501A06524100E8CC62"
+               BuildableName = "alarmaTest.app"
+               BlueprintName = "alarmaTest"
+               ReferencedContainer = "container:alarmaTest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E00EA73B1A04992600FEBCDC"
-               BuildableName = "Haffee.xctest"
-               BlueprintName = "ProyectoCafeAPpTests"
-               ReferencedContainer = "container:ProyectoCafeAPp.xcodeproj">
+               BlueprintIdentifier = "E0F07B651A06524100E8CC62"
+               BuildableName = "alarmaTestTests.xctest"
+               BlueprintName = "alarmaTestTests"
+               ReferencedContainer = "container:alarmaTest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E00EA73B1A04992600FEBCDC"
-               BuildableName = "Haffee.xctest"
-               BlueprintName = "ProyectoCafeAPpTests"
-               ReferencedContainer = "container:ProyectoCafeAPp.xcodeproj">
+               BlueprintIdentifier = "E0F07B651A06524100E8CC62"
+               BuildableName = "alarmaTestTests.xctest"
+               BlueprintName = "alarmaTestTests"
+               ReferencedContainer = "container:alarmaTest.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E00EA7261A04992600FEBCDC"
-            BuildableName = "ProyectoCafeAPp.app"
-            BlueprintName = "ProyectoCafeAPp"
-            ReferencedContainer = "container:ProyectoCafeAPp.xcodeproj">
+            BlueprintIdentifier = "E0F07B501A06524100E8CC62"
+            BuildableName = "alarmaTest.app"
+            BlueprintName = "alarmaTest"
+            ReferencedContainer = "container:alarmaTest.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E00EA7261A04992600FEBCDC"
-            BuildableName = "ProyectoCafeAPp.app"
-            BlueprintName = "ProyectoCafeAPp"
-            ReferencedContainer = "container:ProyectoCafeAPp.xcodeproj">
+            BlueprintIdentifier = "E0F07B501A06524100E8CC62"
+            BuildableName = "alarmaTest.app"
+            BlueprintName = "alarmaTest"
+            ReferencedContainer = "container:alarmaTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E00EA7261A04992600FEBCDC"
-            BuildableName = "ProyectoCafeAPp.app"
-            BlueprintName = "ProyectoCafeAPp"
-            ReferencedContainer = "container:ProyectoCafeAPp.xcodeproj">
+            BlueprintIdentifier = "E0F07B501A06524100E8CC62"
+            BuildableName = "alarmaTest.app"
+            BlueprintName = "alarmaTest"
+            ReferencedContainer = "container:alarmaTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

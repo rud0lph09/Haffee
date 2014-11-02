@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DC470234-DA6A-48A7-87B6-E08EF09CB09C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iTimer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9D06A3704871E318A86805129C7C9E02299A61C0</key>
+		<string>https://github.com/rud0lph09/proyectoCafe.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>App/alarmaTest/iTimer/iTimer.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9D06A3704871E318A86805129C7C9E02299A61C0</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rud0lph09/proyectoCafe.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9D06A3704871E318A86805129C7C9E02299A61C0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9D06A3704871E318A86805129C7C9E02299A61C0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>proyectoCafe</string>
+		</dict>
+	</array>
+</dict>
+</plist>

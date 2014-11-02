@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E00EA7261A04992600FEBCDC"
-               BuildableName = "ProyectoCafeAPp.app"
-               BlueprintName = "ProyectoCafeAPp"
-               ReferencedContainer = "container:ProyectoCafeAPp.xcodeproj">
+               BlueprintIdentifier = "E0F07B7E1A06842000E8CC62"
+               BuildableName = "iTimer.app"
+               BlueprintName = "iTimer"
+               ReferencedContainer = "container:iTimer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E00EA73B1A04992600FEBCDC"
-               BuildableName = "Haffee.xctest"
-               BlueprintName = "ProyectoCafeAPpTests"
-               ReferencedContainer = "container:ProyectoCafeAPp.xcodeproj">
+               BlueprintIdentifier = "E0F07B931A06842000E8CC62"
+               BuildableName = "iTimerTests.xctest"
+               BlueprintName = "iTimerTests"
+               ReferencedContainer = "container:iTimer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E00EA73B1A04992600FEBCDC"
-               BuildableName = "Haffee.xctest"
-               BlueprintName = "ProyectoCafeAPpTests"
-               ReferencedContainer = "container:ProyectoCafeAPp.xcodeproj">
+               BlueprintIdentifier = "E0F07B931A06842000E8CC62"
+               BuildableName = "iTimerTests.xctest"
+               BlueprintName = "iTimerTests"
+               ReferencedContainer = "container:iTimer.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E00EA7261A04992600FEBCDC"
-            BuildableName = "ProyectoCafeAPp.app"
-            BlueprintName = "ProyectoCafeAPp"
-            ReferencedContainer = "container:ProyectoCafeAPp.xcodeproj">
+            BlueprintIdentifier = "E0F07B7E1A06842000E8CC62"
+            BuildableName = "iTimer.app"
+            BlueprintName = "iTimer"
+            ReferencedContainer = "container:iTimer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E00EA7261A04992600FEBCDC"
-            BuildableName = "ProyectoCafeAPp.app"
-            BlueprintName = "ProyectoCafeAPp"
-            ReferencedContainer = "container:ProyectoCafeAPp.xcodeproj">
+            BlueprintIdentifier = "E0F07B7E1A06842000E8CC62"
+            BuildableName = "iTimer.app"
+            BlueprintName = "iTimer"
+            ReferencedContainer = "container:iTimer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E00EA7261A04992600FEBCDC"
-            BuildableName = "ProyectoCafeAPp.app"
-            BlueprintName = "ProyectoCafeAPp"
-            ReferencedContainer = "container:ProyectoCafeAPp.xcodeproj">
+            BlueprintIdentifier = "E0F07B7E1A06842000E8CC62"
+            BuildableName = "iTimer.app"
+            BlueprintName = "iTimer"
+            ReferencedContainer = "container:iTimer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

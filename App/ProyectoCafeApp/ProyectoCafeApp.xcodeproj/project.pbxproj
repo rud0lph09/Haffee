@@ -15,6 +15,7 @@
 		E00EA74D1A04994500FEBCDC /* CreatingCofee.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00EA74C1A04994500FEBCDC /* CreatingCofee.swift */; };
 		E00EA74F1A04995C00FEBCDC /* CoffeeCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00EA74E1A04995C00FEBCDC /* CoffeeCreator.swift */; };
 		E00EA7601A04A53F00FEBCDC /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00EA75F1A04A53F00FEBCDC /* Settings.swift */; };
+		E0B808E41A06941800D9CD8F /* alrratoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B808E31A06941800D9CD8F /* alrratoController.swift */; };
 		E0CEEC051A05148000F86665 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CEEC041A05148000F86665 /* LoaderView.swift */; };
 		E0CEEC081A0515D000F86665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0CEEC061A0515D000F86665 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -42,6 +43,7 @@
 		E00EA74C1A04994500FEBCDC /* CreatingCofee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreatingCofee.swift; path = ProyectoCafeAPp/CreatingCofee.swift; sourceTree = "<group>"; };
 		E00EA74E1A04995C00FEBCDC /* CoffeeCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffeeCreator.swift; sourceTree = "<group>"; };
 		E00EA75F1A04A53F00FEBCDC /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		E0B808E31A06941800D9CD8F /* alrratoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = alrratoController.swift; sourceTree = "<group>"; };
 		E0CEEC041A05148000F86665 /* LoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
 		E0CEEC071A0515D000F86665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ProyectoCafeAPp/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +95,7 @@
 				E00EA72E1A04992600FEBCDC /* ViewController.swift */,
 				E00EA7331A04992600FEBCDC /* Images.xcassets */,
 				E0CEEC061A0515D000F86665 /* Main.storyboard */,
+				E0B808E31A06941800D9CD8F /* alrratoController.swift */,
 				E00EA7351A04992600FEBCDC /* LaunchScreen.xib */,
 				E00EA72A1A04992600FEBCDC /* Supporting Files */,
 			);
@@ -229,6 +232,7 @@
 				E00EA72D1A04992600FEBCDC /* AppDelegate.swift in Sources */,
 				E00EA74F1A04995C00FEBCDC /* CoffeeCreator.swift in Sources */,
 				E00EA74D1A04994500FEBCDC /* CreatingCofee.swift in Sources */,
+				E0B808E41A06941800D9CD8F /* alrratoController.swift in Sources */,
 				E00EA7601A04A53F00FEBCDC /* Settings.swift in Sources */,
 				E0CEEC051A05148000F86665 /* LoaderView.swift in Sources */,
 			);
