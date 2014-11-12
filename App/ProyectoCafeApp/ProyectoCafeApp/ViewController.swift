@@ -262,39 +262,18 @@ class ViewController: UIViewController {
             
         case 1:
             caracaf =  coffee.Azucar["1"]!
-            self.cuch6.image = UIImage(named: "brightSpoon")
-            self.cuch7.image = UIImage(named: "darkSpoon")
-            self.cuch8.image = UIImage(named: "darkSpoon")
-            self.cuch9.image = UIImage(named: "darkSpoon")
-            self.cuch10.image = UIImage(named: "darkSpoon")
+          
         case 2:
             caracaf =  coffee.Azucar["2"]!
-            self.cuch6.image = UIImage(named: "brightSpoon")
-            self.cuch7.image = UIImage(named: "brightSpoon")
-            self.cuch8.image = UIImage(named: "darkSpoon")
-            self.cuch9.image = UIImage(named: "darkSpoon")
-            self.cuch10.image = UIImage(named: "darkSpoon")
+          
         case 3:
             caracaf =  coffee.Azucar["3"]!
-            self.cuch6.image = UIImage(named: "brightSpoon")
-            self.cuch7.image = UIImage(named: "brightSpoon")
-            self.cuch8.image = UIImage(named: "brightSpoon")
-            self.cuch9.image = UIImage(named: "darkSpoon")
-            self.cuch10.image = UIImage(named: "darkSpoon")
+          
         case 4:
             caracaf =  coffee.Azucar["4"]!
-            self.cuch6.image = UIImage(named: "brightSpoon")
-            self.cuch7.image = UIImage(named: "brightSpoon")
-            self.cuch8.image = UIImage(named: "brightSpoon")
-            self.cuch9.image = UIImage(named: "brightSpoon")
-            self.cuch10.image = UIImage(named: "darkSpoon")
+          
         case 5:
             caracaf =  coffee.Azucar["5"]!
-            self.cuch6.image = UIImage(named: "brightSpoon")
-            self.cuch7.image = UIImage(named: "brightSpoon")
-            self.cuch8.image = UIImage(named: "brightSpoon")
-            self.cuch9.image = UIImage(named: "brightSpoon")
-            self.cuch10.image = UIImage(named: "brightSpoon")
         default:
             return 0
 

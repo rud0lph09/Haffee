@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E03AE3501A09F1EA00EF4587 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03AE34F1A09F1EA00EF4587 /* AppDelegate.swift */; };
+		E03AE3521A09F1EA00EF4587 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03AE3511A09F1EA00EF4587 /* ViewController.swift */; };
+		E03AE3551A09F1EA00EF4587 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E03AE3531A09F1EA00EF4587 /* Main.storyboard */; };
+		E03AE3571A09F1EA00EF4587 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E03AE3561A09F1EA00EF4587 /* Images.xcassets */; };
+		E03AE35A1A09F1EA00EF4587 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E03AE3581A09F1EA00EF4587 /* LaunchScreen.xib */; };
+		E03AE3661A09F1EA00EF4587 /* HaffeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03AE3651A09F1EA00EF4587 /* HaffeeTests.swift */; };
+		E0DF76021A0A948C000580CB /* coffeeSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DF76011A0A948C000580CB /* coffeeSender.swift */; };
+		E0DF76061A0A9557000580CB /* coffeeCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DF76051A0A9557000580CB /* coffeeCreator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E03AE3601A09F1EA00EF4587 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E03AE3421A09F1EA00EF4587 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E03AE3491A09F1EA00EF4587;
+			remoteInfo = Haffee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E03AE34A1A09F1EA00EF4587 /* Haffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Haffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E03AE34E1A09F1EA00EF4587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E03AE34F1A09F1EA00EF4587 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E03AE3511A09F1EA00EF4587 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E03AE3541A09F1EA00EF4587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E03AE3561A09F1EA00EF4587 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E03AE3591A09F1EA00EF4587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E03AE35F1A09F1EA00EF4587 /* HaffeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaffeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E03AE3641A09F1EA00EF4587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E03AE3651A09F1EA00EF4587 /* HaffeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaffeeTests.swift; sourceTree = "<group>"; };
+		E0DF76011A0A948C000580CB /* coffeeSender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = coffeeSender.swift; sourceTree = "<group>"; };
+		E0DF76051A0A9557000580CB /* coffeeCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = coffeeCreator.swift; path = ../coffeeCreator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E03AE3471A09F1EA00EF4587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E03AE35C1A09F1EA00EF4587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E03AE3411A09F1EA00EF4587 = {
+			isa = PBXGroup;
+			children = (
+				E03AE34C1A09F1EA00EF4587 /* Haffee */,
+				E03AE3621A09F1EA00EF4587 /* HaffeeTests */,
+				E03AE34B1A09F1EA00EF4587 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E03AE34B1A09F1EA00EF4587 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E03AE34A1A09F1EA00EF4587 /* Haffee.app */,
+				E03AE35F1A09F1EA00EF4587 /* HaffeeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E03AE34C1A09F1EA00EF4587 /* Haffee */ = {
+			isa = PBXGroup;
+			children = (
+				E03AE34F1A09F1EA00EF4587 /* AppDelegate.swift */,
+				E03AE3511A09F1EA00EF4587 /* ViewController.swift */,
+				E0DF76051A0A9557000580CB /* coffeeCreator.swift */,
+				E03AE3531A09F1EA00EF4587 /* Main.storyboard */,
+				E0DF76011A0A948C000580CB /* coffeeSender.swift */,
+				E03AE3561A09F1EA00EF4587 /* Images.xcassets */,
+				E03AE3581A09F1EA00EF4587 /* LaunchScreen.xib */,
+				E03AE34D1A09F1EA00EF4587 /* Supporting Files */,
+			);
+			path = Haffee;
+			sourceTree = "<group>";
+		};
+		E03AE34D1A09F1EA00EF4587 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E03AE34E1A09F1EA00EF4587 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E03AE3621A09F1EA00EF4587 /* HaffeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E03AE3651A09F1EA00EF4587 /* HaffeeTests.swift */,
+				E03AE3631A09F1EA00EF4587 /* Supporting Files */,
+			);
+			path = HaffeeTests;
+			sourceTree = "<group>";
+		};
+		E03AE3631A09F1EA00EF4587 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E03AE3641A09F1EA00EF4587 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E03AE3491A09F1EA00EF4587 /* Haffee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E03AE3691A09F1EA00EF4587 /* Build configuration list for PBXNativeTarget "Haffee" */;
+			buildPhases = (
+				E03AE3461A09F1EA00EF4587 /* Sources */,
+				E03AE3471A09F1EA00EF4587 /* Frameworks */,
+				E03AE3481A09F1EA00EF4587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Haffee;
+			productName = Haffee;
+			productReference = E03AE34A1A09F1EA00EF4587 /* Haffee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E03AE35E1A09F1EA00EF4587 /* HaffeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E03AE36C1A09F1EA00EF4587 /* Build configuration list for PBXNativeTarget "HaffeeTests" */;
+			buildPhases = (
+				E03AE35B1A09F1EA00EF4587 /* Sources */,
+				E03AE35C1A09F1EA00EF4587 /* Frameworks */,
+				E03AE35D1A09F1EA00EF4587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E03AE3611A09F1EA00EF4587 /* PBXTargetDependency */,
+			);
+			name = HaffeeTests;
+			productName = HaffeeTests;
+			productReference = E03AE35F1A09F1EA00EF4587 /* HaffeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E03AE3421A09F1EA00EF4587 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Rodolfo Castillo";
+				TargetAttributes = {
+					E03AE3491A09F1EA00EF4587 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					E03AE35E1A09F1EA00EF4587 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = E03AE3491A09F1EA00EF4587;
+					};
+				};
+			};
+			buildConfigurationList = E03AE3451A09F1EA00EF4587 /* Build configuration list for PBXProject "Haffee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E03AE3411A09F1EA00EF4587;
+			productRefGroup = E03AE34B1A09F1EA00EF4587 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E03AE3491A09F1EA00EF4587 /* Haffee */,
+				E03AE35E1A09F1EA00EF4587 /* HaffeeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E03AE3481A09F1EA00EF4587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E03AE3551A09F1EA00EF4587 /* Main.storyboard in Resources */,
+				E03AE35A1A09F1EA00EF4587 /* LaunchScreen.xib in Resources */,
+				E03AE3571A09F1EA00EF4587 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E03AE35D1A09F1EA00EF4587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E03AE3461A09F1EA00EF4587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E03AE3521A09F1EA00EF4587 /* ViewController.swift in Sources */,
+				E03AE3501A09F1EA00EF4587 /* AppDelegate.swift in Sources */,
+				E0DF76061A0A9557000580CB /* coffeeCreator.swift in Sources */,
+				E0DF76021A0A948C000580CB /* coffeeSender.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E03AE35B1A09F1EA00EF4587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E03AE3661A09F1EA00EF4587 /* HaffeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E03AE3611A09F1EA00EF4587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E03AE3491A09F1EA00EF4587 /* Haffee */;
+			targetProxy = E03AE3601A09F1EA00EF4587 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E03AE3531A09F1EA00EF4587 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E03AE3541A09F1EA00EF4587 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E03AE3581A09F1EA00EF4587 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E03AE3591A09F1EA00EF4587 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E03AE3671A09F1EA00EF4587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E03AE3681A09F1EA00EF4587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E03AE36A1A09F1EA00EF4587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Haffee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E03AE36B1A09F1EA00EF4587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Haffee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E03AE36D1A09F1EA00EF4587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HaffeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haffee.app/Haffee";
+			};
+			name = Debug;
+		};
+		E03AE36E1A09F1EA00EF4587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HaffeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haffee.app/Haffee";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E03AE3451A09F1EA00EF4587 /* Build configuration list for PBXProject "Haffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E03AE3671A09F1EA00EF4587 /* Debug */,
+				E03AE3681A09F1EA00EF4587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E03AE3691A09F1EA00EF4587 /* Build configuration list for PBXNativeTarget "Haffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E03AE36A1A09F1EA00EF4587 /* Debug */,
+				E03AE36B1A09F1EA00EF4587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E03AE36C1A09F1EA00EF4587 /* Build configuration list for PBXNativeTarget "HaffeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E03AE36D1A09F1EA00EF4587 /* Debug */,
+				E03AE36E1A09F1EA00EF4587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E03AE3421A09F1EA00EF4587 /* Project object */;
+}
